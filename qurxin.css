@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header {
+    display: flex;
+    
+    background:brown;
+}
+h1{
+    color: white;
+
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(Hargeisa.jpg);
+   background-position: center;
+   background-size: cover;
+   height: 109vh;   
+   position: fixed;                                                                                                                                                                                                                                                                                        
+}
+.navbar{
+    background-color: rgba(0,0,0,0.2);
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 30px 40px;
+}
+ul{
+    display: flex;
+   justify-content: space-between;
+    align-items: center;
+    margin-left: 400px;
+    gap: 20px;
+}
+
+h3{
+    font-size: 1.6rem;
+    color: white;
+}
+
+ul li{
+    list-style: none;;
+    font-size: 15px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    background-color: orange;
+    border-radius: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 9px;
+    padding-top: 9px;
+}
+
+
+.content{
+    color: white;
+}
+.content H3{
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+    font-size: 35px;
+    font-weight: bold;
+}
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing:1.2px;
+color: white;
+}
+.main-content{
+    width: 50%;
+}
+
+.content h1{  
+ letter-spacing: 2px;
+font-family: 'Times New Roman';
+font-size: 50px;
+padding-left: 20px;
+margin-left: 9px;
+}
+.content .mon{
+    width: 160px;
+    height: 40px;
+    background: orange;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+}
+.content .mon a{
+    text-decoration: none;
+    color: black;
+    transition: .3s ease;
+}
+.mon:hover{
+    background-color: white;
+
+}
+.content span{
+    color: orange;
+    font-size: 60px;
+}
+
+.form{
+    margin-top: 125px;
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: -20px;
+    left: 870px;
+    border-radius: 10px;
+    padding: 25px;
+}
+.form h2{
+width: 220px;
+font-family: sans-serif;
+text-align: center;
+color: orange;
+font-size: 22px;
+background-color: white;
+border-radius: 10px;
+margin: 2px;
+padding: 8px;
+
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid orange;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+.form input:focus{
+    outline: none;
+}
+::placeholder{
+    color: white;
+    font-family: Arial;
+}
+.btn{
+    width: 240px;
+    height: 40px;
+    background: orange;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    clear:white;
+    transition: o.4s ease;
+}
+.btn:hover{
+    background-color: white;
+    color: orange;
+}
+.btn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+}
+.title{
+    color: orange;
+}
+.par1{
+    color: white;
+}
+.par2{
+    color: white;
+}
+.par3{
+    color: white;
+}
+.Jsl{
+ 
+  .green { color: green; }
+  .white { color: white; ; }
+  .red { color: red; }
+
+}
+
+.form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+.form .link a{
+text-decoration: none;
+color: blueviolet;
+cursor: pointer;
+
+}
+.form .link a:hover{
+    text-decoration: underline;
+}
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+
+}

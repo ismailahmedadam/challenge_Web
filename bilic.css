@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Jsl{
+ 
+    .green { color: green; }
+    .white { color: white; ; }
+    .red { color: red; }
+  
+  }
+.header {
+    display: flex;
+    
+    background:brown;
+}
+h1{
+    color: white;
+
+}
+.man{
+    width: 100%;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(Hargeisa.jpg);
+   background-position: center;
+   background-size: cover;
+   height: 109vh;   
+   position: fixed;                                                                                                                                                                                                                                                                                        
+}
+.navbar{
+    background-color: rgba(0,0,0,0.2);
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 30px 40px;
+}
+ul{
+    display: flex;
+   justify-content: space-between;
+    align-items: center;
+    margin-left: 400px;
+    gap: 20px;
+}
+
+h3{
+    font-size: 1.6rem;
+    color: white;
+}
+
+ul li{
+    list-style: none;;
+    font-size: 15px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    background-color: orange;
+    border-radius: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 9px;
+    padding-top: 9px;
+}
+
+
+.pr3 img{
+    width: 290px;
+    height: 270px;
+    margin-left: 90px;
+    margin-top: 10px;
+    border-radius: 30px;
+
+}
+.pr2 img{
+    width: 290px;
+    height: 280px;
+    margin-left: 60px;
+    margin-top: 10px;
+    border-radius: 30px;
+}
+
+.pr1 img{
+    width: 290px;
+    height: 270px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 30px;
+
+}
+.pr-price{
+    display: flex;
+    width: 290px;
+    height: 270px;
+    margin-left: 10px;
+    margin-top: 10px;
+   
+}
+
+.box-product{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 0 40px;
+    row-gap: 20px;
+}
+.ismo{
+    margin-left: 128px;  
+}
+.css{
+    margin-left: 60px;   
+}
+.csss{
+    margin-left: 30px;   
+}
+.html{
+    margin-left: 10px;
+}
+.qim{
+   margin-left: 40px;  
+}
+.products{
+    text-align: center;
+}
