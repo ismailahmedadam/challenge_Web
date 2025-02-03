@@ -23,8 +23,8 @@ h1{
     background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(Hargeisa.jpg);
    background-position: center;
    background-size: cover;
-   height: 109vh;   
-   position: fixed;                                                                                                                                                                                                                                                                                        
+   height: 250vh;   
+   position:absolute;                                                                                                                                                                                                                                                                                        
 }
 .navbar{
     background-color: rgba(0,0,0,0.2);
@@ -93,6 +93,30 @@ ul li a:hover{
     border-radius: 30px;
 
 }
+.pr6 img{
+    width: 290px;
+    height: 270px;
+    margin-left: 90px;
+    margin-top: 10px;
+    border-radius: 30px;
+
+}
+.pr5 img{
+    width: 290px;
+    height: 280px;
+    margin-left: 60px;
+    margin-top: 10px;
+    border-radius: 30px;
+}
+
+.pr4 img{
+    width: 290px;
+    height: 270px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 30px;
+
+}
 .pr-price{
     display: flex;
     width: 290px;
@@ -109,19 +133,62 @@ ul li a:hover{
     row-gap: 20px;
 }
 .ismo{
-    margin-left: 128px;  
+    margin-left: 105px;
+    font-weight: bolder;
+   
+    
 }
 .css{
     margin-left: 60px;   
 }
+.nod{
+    margin-right: 76px;    
+}
+.node{
+   margin-right: 76px; 
+   background-color: orange;
+   background-color: orange;
+   border-radius: 8px; 
+   padding-left: 10px;
+   padding-right: 10px;
+   padding-top: 6px;
+   padding-bottom: 6px;
+   border: none;
+   color: white;
+   width: 50px; 
+  font-weight: bolder;
+}
+
 .csss{
-    margin-left: 30px;   
+    margin-left: 20px; 
+
+    background-color: orange;
+    border-radius: 8px; 
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border: none;
+    color: white;
+    width: 50px; 
+   font-weight: bolder;
 }
 .html{
-    margin-left: 10px;
+    margin-right: 30px;
 }
+
 .qim{
-   margin-left: 40px;  
+   margin-left: 8px; 
+   font-weight: bolder;
+   background-color: orange;
+   border-radius: 8px; 
+   padding-left: 10px;
+   padding-right: 10px;
+   padding-top: 6px;
+   padding-bottom: 6px;
+   border: none;
+   color: white;
+   width: 50px;
 }
 .products{
     text-align: center;
